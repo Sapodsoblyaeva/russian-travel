@@ -1,0 +1,13 @@
+.places__web-links {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  grid-area: places__web-links;
+}
+
+@media screen and (max-width: 320px) {
+  .places__web-links {
+  width: 95%;
+  margin: 0 auto 0;
+}
+}

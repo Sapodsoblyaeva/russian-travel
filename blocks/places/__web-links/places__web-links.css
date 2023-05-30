@@ -5,9 +5,10 @@
   grid-area: places__web-links;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 767px) {
   .places__web-links {
-  width: 95%;
-  margin: 0 auto 0;
-}
+    max-width: 288px;
+    width: 100%;
+    margin: 0 auto 0;
+  }
 }

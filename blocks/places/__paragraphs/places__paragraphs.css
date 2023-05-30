@@ -1,24 +1,23 @@
-.description {
-  margin: 92px auto 0;
+.places__paragraphs {
+  max-width: 484px;
   width: 100%;
-  max-width: 984px;
+  margin: 0 auto 0;
 }
 
 @media screen and (max-width: 1279px) {
-  .description {
-    max-width: 928px;
+  .places__paragraphs {
+    max-width: 456px;
   }
 }
 
 @media screen and (max-width: 1023px) {
-  .description {
-    max-width: 720px;
+  .places__paragraphs {
+    max-width: 352px;
   }
 }
 
 @media screen and (max-width: 767px) {
-  .description {
+  .places__paragraphs {
     max-width: 288px;
-    margin: 64px auto;
   }
 }

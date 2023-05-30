@@ -1,0 +1,52 @@
+.conclusion__background {
+  width: 100%;
+  margin: 0;
+  background-image: url(../../../images/traindepo__background.png);
+  min-height: 740px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  text-decoration: none;
+  color: white;
+  position: relative;
+  z-index: 0;
+}
+
+.conclusion__background::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(42, 44, 47, 0.3);
+  z-index: -1;
+}
+
+.conclusion__background:hover::before {
+  background-color: rgba(42, 44, 47, 0.8);
+  transition: background 1s ease-in-out;
+}
+
+@media screen and (max-width: 1279px) {
+  .conclusion__background {
+    min-height: 640px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .conclusion__background {
+    min-height: 480px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .conclusion__background {
+    min-height: 200px;
+  }
+}

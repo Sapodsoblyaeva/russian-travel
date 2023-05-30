@@ -6,13 +6,11 @@
   text-align: center;
   max-width: 560px;
   width: 100%;
-  text-decoration: none;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 767px) {
   .conclusion__title {
     font-size: 32px;
+    margin: 0 auto 0;
+  }
 }
-}
-
-

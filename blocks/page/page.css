@@ -1,49 +1,32 @@
-/*div {
-  outline: 2px solid red;
-}
-
-section {
-  outline: 2px solid red;
-}
-
-header {
-  outline: 2px solid red;
-}
-
-h1 {
-  outline: 2px solid red;
-}
-
-h2 {
-  outline: 2px solid red;
-}
-
-h3 {
-  outline: 2px solid red;
-}
-
-p {
-  outline: 2px solid red;
-}
-
-img {
-  outline: 2px solid red;
-}
-
-a {
-  outline: 2px solid red;
-}*/
-
 .page {
   max-width: 1184px;
   margin: 0 auto 0;
-  font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif;
-  background-color: #2A2C2F;
+  font-family: "Inter", "Helvetica Neue", Arial, sans-serif;
+  background-color: #2a2c2f;
   color: white;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  text-rendering: optimizeLegibility;
 }
 
-@media screen (max-width: 320px) {
-  .page{
-  overflow: hidden;
+@media screen and (max-width: 1279px) {
+  .page {
+    max-width: 1024px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .page {
+    max-width: 768px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .page {
+    max-width: 320px;
+    margin: 0;
   }
 }

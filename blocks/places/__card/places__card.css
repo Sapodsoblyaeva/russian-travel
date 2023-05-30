@@ -1,0 +1,52 @@
+.places__card {
+  max-width: 984px;
+  width: 100%;
+  margin: 0 auto 80px;
+  display: grid;
+  grid-template-columns: repeat(autofit, minmax(1fr, 460px));
+  gap: 48px 40px;
+  grid-template-areas:
+    "places__title places__web-links"
+    "places__image places__paragraph"
+    "places__image .";
+}
+
+@media screen and (max-width: 1279px) {
+  .places__card {
+    max-width: 928px;
+    margin: 0 auto 80px;
+    grid-template-columns: repeat(autofit, minmax(1fr, 440px));
+    grid-template-areas:
+      "places__title places__web-links"
+      "places__image places__paragraph";
+    gap: 48px 32px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .places__card {
+    max-width: 720px;
+    margin: 0 auto 73px;
+    grid-template-columns: repeat(autofit, minmax(1fr, 340px));
+    gap: 48px 28px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .places__card {
+    max-width: 320px;
+    box-sizing: border-box;
+    grid-template-columns: minmax(1fr, 288px);
+    row-gap: 32px;
+    grid-template-areas:
+      "places__title"
+      "places__web-links"
+      "places__image"
+      "places__paragraph";
+    margin: 0 0 50px;
+  }
+
+  .places__card:last-child {
+    margin-bottom: 66px;
+  }
+}

@@ -11,7 +11,8 @@
 
 @media screen and (max-width: 320px) {
   .conclusion__subtitle {
-  font-size: 14px;
-  margin-top: 16px;
-}
+    font-size: 14px;
+    max-width: 288px;
+    margin-top: 16px;
+  }
 }

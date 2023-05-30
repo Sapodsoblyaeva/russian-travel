@@ -15,18 +15,10 @@
   .places__paragraph {
     font-size: 16px;
   }
-
-  .places__paragraph:last-child {
-    margin-bottom: 0;
-  }
 }
 
 @media screen and (max-width: 767px) {
   .places__paragraph {
     margin-bottom: 25px;
-  }
-
-  .places__paragraph:last-child {
-    margin-bottom: 0;
   }
 }

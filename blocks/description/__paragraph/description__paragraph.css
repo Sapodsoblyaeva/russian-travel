@@ -8,6 +8,12 @@
   width: 100%;
 }
 
+@media screen and (max-width: 1023px) {
+  .description__paragraph {
+    max-width: none;
+  }
+}
+
 @media screen and (max-width: 767px) {
   .description__paragraph {
     max-width: 288px;

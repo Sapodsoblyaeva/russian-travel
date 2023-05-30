@@ -14,7 +14,6 @@
 @media screen and (max-width: 1279px) {
   .places__card {
     max-width: 928px;
-    margin: 0 auto 80px;
     grid-template-columns: repeat(autofit, minmax(1fr, 440px));
     grid-template-areas:
       "places__title places__web-links"
@@ -43,7 +42,7 @@
       "places__web-links"
       "places__image"
       "places__paragraph";
-    margin: 0 0 50px;
+    margin: 0 auto 50px;
   }
 
   .places__card:last-child {

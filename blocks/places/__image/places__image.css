@@ -26,7 +26,6 @@
   .places__image {
     max-width: 320px;
     height: 320px;
-    margin: 0;
     object-fit: contain;
     box-sizing: border-box;
     overflow: hidden;

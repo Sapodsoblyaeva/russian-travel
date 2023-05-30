@@ -3,12 +3,6 @@
   margin: 92px 0;
 }
 
-@media screen and (max-width: 1279px) {
-  .conclusion {
-    margin: 92px 0 0;
-  }
-}
-
 @media screen and (max-width: 1023px) {
   .conclusion {
     margin: 90px 0;
